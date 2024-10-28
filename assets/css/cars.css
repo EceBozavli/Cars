@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background-color: lightskyblue;
+  border: 5px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+h5 {
+  margin-block: 20px;
+}
+hr {
+  margin-bottom: 20px;
+  border:  2px solid blue;
+}
+
+.cars-table {
+  margin: 0 auto;
+  width: 500px;
+}
+.cars-table th {
+  background-color: orange;
+  padding: 10px;
+}
+tr {
+  background-color: beige;
+  padding: 10px;
+}
